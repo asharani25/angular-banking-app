@@ -1,0 +1,14 @@
+<!--Added bootstrap classes to support responsiveness-->
+<div *ngFor="let item of records" class = "col-md-12 col-sm-12 col-xs-12">
+    <h3>Transaction Page</h3>
+    <div>
+    <span>ID</span>
+    <span>Amount</span>
+    <span>DepositedAmount</span>
+    <span>LastWithdrawAmout</span>
+    </div>
+    <div>
+      Record: {{item}}
+    </div>   
+</div>
+
